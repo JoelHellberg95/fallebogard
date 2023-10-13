@@ -7,7 +7,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <img class="logo" src="Resources/images/fallebogardlogo.png" alt="FalleboLogotyp">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="#">Butik</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Om oss</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam, justo in efficitur suscipit, dui nisi facilisis erat.</p>
+    </section>
+
+    <section id="services">
+        <h2>Vad vi säljer</h2>
+        <ul>
+            <li>Köttlådor</li>
+            <li>Skinn</li>
+            <li>Livdjur</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakta oss</h2>
+        <form>
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Skicka</button>
+        </form>
+    </section>
     
-<script src=script.js></script>
+    <footer>
+        <p>&copy; 2023 Fällebo Gård</p>
+    </footer>
+    <script src=script.js></script>
 </body>
 </html>
